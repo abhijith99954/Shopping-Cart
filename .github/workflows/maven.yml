@@ -30,7 +30,6 @@ jobs:
     - name: Build with Maven
       run: mvn clean package -DskipTests --file pom.xml
     - name: RunMavenTest
-    - name: RunMavenTest
       uses: Maes95/maven-action@1.1.0
       with: 
         package: # optional, default is false
